@@ -22,9 +22,6 @@ bun test
 bun run typecheck
 ```
 
-The SDK, `@trydirex/plugin-sdk`, isn't on npm yet, so `package.json` links the copy in
-`../direx/packages/plugin-sdk`. Switch it to the published version once it's out.
-
 ## How it runs in Direx
 
 A Server admin installs the bundled `plugin.js` (see `docs/third-party-plugins.md` in the Direx
